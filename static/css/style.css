@@ -1,0 +1,27 @@
+@charset "utf-8";
+  :root{
+      /* cssの変数定義 */
+      --focuscolor: aqua;
+  }
+  body{
+      background: yellowgreen;
+  }
+  a:link{
+      color: green;
+  }
+  a:hover{
+      color: blue;
+  }
+  a:visited{
+      color: #aabb33;
+  }
+  input:focus{
+      background-color:var(--focuscolor);
+  }
+  button:focus{
+      background-color:var(--focuscolor);
+  }
+  span{
+      margin:0;
+      padding:0;
+  }

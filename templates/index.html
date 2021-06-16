@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang='ja'>
+<head>
+  <meta charset='utf-8'/>
+  <title>TOMMY'S HOUSE</title>
+  <script type='text/javascript' src='/newpage/static/js/jquery-1.10.2.js'></script>
+  <!-- cssのキャッシュを常に更新する -->
+  <link rel='stylesheet' href='/newpage/static/css/style2021.css?{{ displaydate.strftime('%Y%m%d%H%M%S') }}'>
+</head>
+<body>
+    <div class='header clearfix'>
+       <div class='inBox' style='margin:20px;'>
+          pcモード 本日は{{
+            displaydate.strftime('%Y/%m/%d (%a)')
+            }}です。<br>最終更新日：-------- <br>このページはFlaskでサイト構築しています。
+       </div>
+    </div>
+    <div class='nav' style='padding: 30px 0 0 0;'>
+      <a href='../../index.php'>戻る</a>
+    </div>
+    <div class='content'>
+      表示C
+    </div>
+</body>
+</html>
